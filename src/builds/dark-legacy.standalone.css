@@ -6,3 +6,6 @@
 
 @import '../variables-dark.css';
 @import '../parts/_core.css';
+
+@import '../variables-light.css' (prefers-color-scheme: light);
+@import '../parts/_core.css' (prefers-color-scheme: light);
